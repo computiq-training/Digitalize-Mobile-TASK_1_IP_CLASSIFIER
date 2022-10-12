@@ -23,7 +23,7 @@ def solution():
  elif octets[0] in range(192, 223):
      if octets[0] == 192 and octets[1] == 168:
           print('class C, designation: private')
-     else:print('class C , designation :public')
+     else: print('class C , designation :public')
 
  #class d
  elif octets[0] in range(224, 240):
