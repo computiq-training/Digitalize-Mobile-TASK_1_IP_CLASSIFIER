@@ -2,7 +2,7 @@ def solution(ip_address):
     ip,sub_mask=ip_address.split('/')
     octets=[int(x) for x in ip.split('.')]
     
-    # CLASS A
+    # CLASS  A
     if octets[0] <= 127: 
         ip_class='A'
         if octets[0] == 10: Designation='Private'
