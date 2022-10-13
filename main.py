@@ -1,4 +1,4 @@
-#def solution(ip_address):
+
 ip_address=input('enter the ip-address')
 ip=ip_address.split('/')
 sepelat= [int( i.split('.')[0]) for i in ip]
@@ -41,9 +41,6 @@ elif sepelat[0]>=239 and sepelat[0]<=255:
      Designation='public'
      print(ip_class,Designation)   
      
-#x={'class':ip_class,'Designation':Designation }  
-#print (x) 
-#return {'class':ip_class,'Designation':Designation } 
 if __name__ == '__main__':
     pass
 #/
