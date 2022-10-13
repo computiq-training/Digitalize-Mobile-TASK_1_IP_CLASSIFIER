@@ -1,3 +1,5 @@
+from sys import argv
+
 def solution(ip_address):
     ip,sub_mask=ip_address.split('/')
     octets=[int(x) for x in ip.split('.')]
@@ -34,4 +36,4 @@ def solution(ip_address):
 
 
 if __name__ == '__main__':
-    pass
+    print(f"Output: Class: {solution(argv[1])[0]}, Designation: {solution(argv[1])[1]}")
