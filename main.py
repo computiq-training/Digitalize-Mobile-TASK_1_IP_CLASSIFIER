@@ -50,7 +50,7 @@ if (a > 0 and a < 255) and (b > 0 and b < 255) and (c > 0 and c < 255) and (d > 
     print ("Class: ", The_IpClass_Is, ", Designation: ", Designation_Is)
 
 else:
-    print("The IP contain not valid value")
+    print("The  IP contain not valid value")
 
 
 <<<<<<< HEAD
