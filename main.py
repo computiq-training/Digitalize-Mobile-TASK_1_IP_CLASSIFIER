@@ -8,7 +8,7 @@ c = int (TheIP[2])
 d = int (TheIP[3])
 
 
-if (a > 0 and a < 255) and (b >= 0 and b < 255) and (c >= 0 and c < 255) and (d > 0 and d < 255):
+if (a > 0 and a < 255) and (b > 0 and b < 255) and (c > 0 and c < 255) and (d > 0 and d < 255):
 
 
 #Class A
@@ -45,10 +45,6 @@ if (a > 0 and a < 255) and (b >= 0 and b < 255) and (c >= 0 and c < 255) and (d 
     elif (a >= 240 and a <= 255):
         The_IpClass_Is = "class D"
         Designation_Is = "Public"
-#class X
-    if (a <= 127 and b <= 0) and (c <= 0 and d <= 1):
-        The_IpClass_Is = "class x"
-        Designation_Is = "x"
 
 
     print ("Class: ", The_IpClass_Is, ", Designation: ", Designation_Is)
