@@ -28,7 +28,7 @@ if (a > 0 and a < 255) and (b > 0 and b < 255) and (c > 0 and c < 255) and (d > 
             if (b >=16 and b <= 31):
                 Designation_Is = "Private"
 
-#Class C
+#Class C 
     elif (a >= 192 and a <= 223):
         The_IpClass_Is = "class C"
         Designation_Is = "Public"
@@ -53,6 +53,9 @@ else:
     print("The IP contain not valid value")
 
 
+<<<<<<< HEAD
 
 if __name__ == '__main__':
     pass
+=======
+>>>>>>> dea8128ac19dcdeedbc39bbe4f088913ad058383
